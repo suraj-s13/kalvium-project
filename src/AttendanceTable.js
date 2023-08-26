@@ -62,7 +62,7 @@ function AttendanceTable() {
             {Array.from({ length: numWeeks }).map((_, index) => (
               <th key={index}>Week {index + 1}</th>
             ))}
-            <th className="missed-col">Missed Days</th>
+            <th className="missed-col">Missed Weeks</th>
           </tr>
         </thead>
         <tbody>
