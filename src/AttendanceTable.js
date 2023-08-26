@@ -52,17 +52,17 @@ function AttendanceTable() {
     <div className="table-container">
       <AddStudentForm addStudent={addStudent} />
       <div className="buttons-container">
-      <button className='add-week-btn' onClick={increaseWeeks}>Add Week</button>
-      <button className='remove-week-btn' onClick={decreaseWeeks}>Remove Week</button>
+      <button className='add-week-btn' onClick={increaseWeeks}>Add Days</button>
+      <button className='remove-week-btn' onClick={decreaseWeeks}>Remove Days</button>
       </div>
       <table>
         <thead>
           <tr>
             <th className="name-col">Student Name</th>
             {Array.from({ length: numWeeks }).map((_, index) => (
-              <th key={index}>Week {index + 1}</th>
+              <th key={index}>Day {index + 1}</th>
             ))}
-            <th className="missed-col">Missed Weeks</th>
+            <th className="missed-col">Missed Days</th>
           </tr>
         </thead>
         <tbody>
