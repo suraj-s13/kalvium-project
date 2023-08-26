@@ -5,7 +5,7 @@ import AttendanceTable from './AttendanceTable';
 function App() {
   return (
     <div className="App">
-        <h1>Attendance</h1>
+      <div className='heading'><h1>Attendance</h1></div>
         <AttendanceTable />
       </div>
   );
