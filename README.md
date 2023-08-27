@@ -32,13 +32,29 @@ Follow these steps to set up and start the project:
 ## Repository Structure
 
 ```sh
-  ├─ public/
-  │  ├─ favicon.ico        # Website favicon
-  │  ├─ index.html         # Main webpage
-  │  ├─ logo192.png        # Web icons (small)
-  │  ├─ logo512.png        # Web icons (larger)
-  │  ├─ manifest.json      # Allows installation on devices
-  │  └─ robots.txt         # Web text file guiding search engine access
+  /
+├─ public/<br>
+│  ├─ favicon.ico/     #representing website <br>
+│  ├─ index.html/      #webpage of a website <br>
+│  ├─ logo192.png/     #image for web icons <br>
+│  ├─ logo512.png/     #image for web icons for larger size <br>
+│  ├─ manifest.json/   #allows installation use on devices <br>
+|  ├─robots.txt/       #web text file guiding search engine access to pages <br>
+├─ 
+│  ├─ src/                # Assets <br>
+│  |  ├─AddStudentForm.css/   #Display student and period headline <br>
+│  |  ├─AddStudentForm.js/    #javascript code for adding student name <br>
+│  │  ├─ App.css/             #Css code for our project <br>
+│  │  ├─ App.js/              #html/js code for our project <br>
+│  │  ├─ AttendanceTable.css/ #css code for displaying table and its features <br>
+│  |  ├─AttendanceTable.js/   #javascript code to display table for attendance <br>
+│  |  ├─back-grd.jpg/         #background image for the page <br>
+│  |  ├─table-back.jpg/       #background image for attendance table <br>
+│  │
+│  ├─ .gitignore/         # guide for Git on what files and folders to disregard <br>
+│  ├─ package-lock.json/  #maintains package versions for consistent Node.js development <br>
+|  ├─ package.json        # Project manifest <br>
+   └─ README.md           # This file <br>
 
 ```
 
